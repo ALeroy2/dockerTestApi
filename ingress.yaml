@@ -8,7 +8,7 @@ spec:
   rules:
   - http:
       paths:
-      - path: /messageepsi
+      - path: /hello
         backend:
           serviceName: dockettestapi
           servicePort: 3000
